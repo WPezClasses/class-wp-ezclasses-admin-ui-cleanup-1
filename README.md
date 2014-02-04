@@ -1,4 +1,7 @@
-class-wp-ezclasses-admin-ui-cleanup-1
+Class WP ezClasses Admin UI Cleanup 1
 =====================================
 
-Automates the removal of various elements within the WordPress admin UI.
+Engine that automates the cleanup of the WordPress Admin UI. 
+
+Remove this, filter that, action ahoy. Things done on the regular (or not) all array / option driven.
+
