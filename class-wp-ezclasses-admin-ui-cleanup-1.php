@@ -18,7 +18,9 @@
 /*
  * == Change Log == 
  *
- * --- 
+ *  -- FIXED: Issue (warning) with unset in method: media_box_unset_default_sizes()
+ *
+ * 
  */
 
  
@@ -353,7 +355,7 @@ if (!class_exists('Class_WP_ezClasses_Admin_UI_Cleanup_1')) {
 			if ( WP_ezMethods::array_pass($this->_arr_media_box_unset_default_sizes) ){
 			
 				foreach ( $this->_arr_media_box_unset_default_sizes as $str_unset_this ){
-					unset( $arr_sizes[$str_unset_this] );
+					unset( $arr_sizes['sizes'][$str_unset_this] );
 				}
 			}
 			return $arr_sizes;
